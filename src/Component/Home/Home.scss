@@ -1,0 +1,138 @@
+#home {
+    height: 100vh;
+    background-image: url('../assets/img/Team-buiding_herobanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-content {
+    padding-bottom: 162px;
+
+    h1 {
+        line-height: 27.2px;
+        font-size: 21px;
+        line-height: 27.2px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+}
+
+.btn-khampha {
+    background-image: url('../assets/img/bg-btn.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 417.63px;
+    height: 73px;
+}
+
+.btn-event {
+    background-image: url('../assets/img/btn-event.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 333px;
+    height: 63px;
+    font-size: 21px;
+    color: #1168D1;
+    line-height: 47px;
+}
+
+
+
+.logo-cmc {
+    position: absolute;
+    top: 68px;
+    left: 48px;
+    width: 120px;
+    height: 57px;
+}
+
+.logo-your5fire {
+    width: 98.35px;
+    height: 79.68px;
+    position: absolute;
+    top: 68px;
+    right: 48px;
+}
+
+@media only screen and (max-width: 601px) {
+    .logo-cmc {
+        width: 65px;
+        ;
+        height: 30px;
+        position: absolute;
+        top: 22px;
+        left: 12px;
+
+    }
+
+    .logo-your5fire {
+        width: 47.35px;
+        height: 37.68px;
+        position: absolute;
+        top: 22px;
+        right: 12px;
+
+    }
+
+    #home {
+        height: 100vh;
+        background-image: url('../assets/img/bg-home-mobie.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .home-content {
+        padding-bottom: 38px;
+
+        h1 {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+
+    
+
+    .btn-khampha {
+        background-image: url('../assets/img/bg-btn.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 59%;
+        height: 5%;
+    }
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    #home {
+        height: 72vh;
+        background-image: url(../assets/img/Team-buiding_herobanner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .home-content {
+        padding-bottom: 92px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }

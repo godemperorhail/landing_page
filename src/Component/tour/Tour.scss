@@ -1,0 +1,53 @@
+#tour {
+	padding-top: 82px;
+	padding-bottom: 56px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../assets/img/tour-bg.png');
+	h1 {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 58px;
+		text-align: center;
+		color: #F5F5F5;
+	}
+}
+.tour-card {
+	padding: 48px 20px 98px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../assets/img/tour-card.png');
+	height: 400px;
+	h2 {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 26px;
+		text-align: center;
+		color: #052547;
+	}
+}
+.img-tour{
+    width: 80%;
+  }
+.tour-btn {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../assets/img/tour-btn.png');
+	height: 79px;
+	width: 417.57px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 129.52%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
