@@ -98,9 +98,123 @@
     width: 50%;
 }
 
+@media only screen and (max-width: 601px) {
+    #race {
+        z-index: 20;
+        background-image: url('../assets/img/bg-race.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 38px 0 100px 0;
+
+        .img-left {
+            width: 43%;
+            height: 5%;
+            top: -46px;
+        }
+
+        .img-right {
+            width: 191px;
+            height: 172.71px;
+            top: -84px;
+            right: 0;
+        }
+
+        h1 {
+            margin-top: 0px;
+            font-size: 16px;
+        }
+
+        h3 {
+            margin-top: 0px;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .btn-race {
+        width: 100%;
+        border-radius: 8px;
+        color: #FFFFFF;
+        border-radius: 8px;
+        color: #FFFFFF;
+    }
+
+    .race-banner {
+        width: 90%;
+    }
+
+    .click-img {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        top: 50%;
+        right: -27%;
+    }
+
+    .persion-race {
+        z-index: 40;
+        width: 118px;
+        height: 144.89px;
+        top: -45px;
+        right: 16px;
+    }
+
+    .img-qr {
+        width: 90px;
+        height: 90px;
+    }
+
+    .persion-music {
+        width: 192px;
+        height: 151.87px;
+    }
+
+    .kv-music {
+        margin-top: -57px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    #race {
+        .img-right {
+            width: 34%;
+            height: 20%;
+            top: -149px;
+            right: 0;
+        }
+
+        .img-left {
+            width: 36%;
+            height: 7%;
+            top: -75px;
+        }
+    }
+
+    .persion-race {
+        z-index: 40;
+        width: 23%;
+        height: 14%;
+        top: -64px;
+        right: 84px;
+    }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
     .container {
-      padding-left: 20px;
-      padding-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-  }
+}

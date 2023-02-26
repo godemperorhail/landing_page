@@ -98,3 +98,29 @@
 .tuoi-tre-footer {
     width: 320px;
 }
+
+@media only screen and (max-width: 601px){
+    #footer {
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
+    .your5-footer{
+        width: 96px;
+      }
+      .tuoi-tre-footer{
+        width: 80%;
+      }
+      .btn-chi-tiet-the-le{
+        width: 100%;
+      }
+}
+@media (max-width: 767px) {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
